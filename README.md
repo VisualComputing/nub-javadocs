@@ -10,5 +10,5 @@ $ git remote add origin https://github.com/VisualComputing/nub-javadocs
 $ git add *
 $ git commit -am'init commit'
 $ git pull --allow-unrelated-histories origin gh-pages -Xours
-$ git push --set-upstream origin gh-pages
+$ git push origin master:gh-pages
 ```
